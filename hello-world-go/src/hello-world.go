@@ -13,7 +13,8 @@ func main() {
     http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
         fmt.Fprintf(w, message)
         fmt.Fprintf(w, message2)
-        fmt.Fprintf(w, "hi i've added some go code")
+        fmt.Fprintf(w, "hi i've added some go code.")
+        fmt.Fprintf(w, "continuous integration done sweet baby.")
         
     })
 
