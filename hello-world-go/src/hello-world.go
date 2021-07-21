@@ -15,6 +15,7 @@ func main() {
         fmt.Fprintf(w, message2)
         fmt.Fprintf(w, "hi i've added some go code.")
         fmt.Fprintf(w, "continuous integration done sweet baby.")
+        fmt.Fprintf(w, "getting github changes through manual approach.")
         
     })
 
