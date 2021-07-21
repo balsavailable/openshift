@@ -6,7 +6,7 @@ COPY src/hello-world.go /go/hello-world.go
 
 # Set the default environment variables
 ENV MESSAGE "Welcome! You can change this message by editing the MESSAGE environment variable."
-ENV MESSAGE2 "Welcome! You can change this message by editing the MESSAGE environment variable."
+ENV MESSAGE2 "one piece."
 ENV HOME /go
 
 # Set permissions to the /go folder (for OpenShift)
